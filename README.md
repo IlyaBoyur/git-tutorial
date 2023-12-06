@@ -58,7 +58,7 @@
 * все сообщения оформлены в одном стиле.
 
 
-#### Корпоративный
+#### Корпоративный стиль
 
 ```<JIRA ID>: <description>```, где
 
@@ -68,7 +68,7 @@ JIRA ID:
 description:  
 инфинитив + описание выполненной работы
 
-#### Conventional Commits
+#### Стиль Conventional Commits
 
 ```<type>: <description>```, где
 
