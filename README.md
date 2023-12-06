@@ -26,6 +26,12 @@
 
 ### Команды Git
 
+#### Первичные настройки
+
+`git config --global user.name "John Doe"` - установить имя пользователя  
+`git config --global user.email johndoe@example.com` - установить почту пользователя  
+`git config --list` - показать список всех настроек  
+
 `git init` - сделать git репозиторий из текущей папки  
 `rm -rf .git` - превратить текущий git репозиторий в обычную папку
 
