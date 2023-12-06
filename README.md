@@ -89,4 +89,18 @@ description:
 issue - номер задачи в GitHub
 
 
+#### Жизненный цикл Git
 
+```mermaid
+graph LR;
+  %% Добавление в индекс нового файла
+  untracked -- "git add"    --> staged[staged \n в списке на коммит];
+  %% Фиксация изменений
+  staged    -- "git commit" --> tracked[tracked \n отслеживаемый];
+  %% Изменение
+  tracked   -- "Изменения"  --> modified[modified \n измененный];
+  %% Добавление в индекс файла
+  modified  -- "git add"    --> staged;
+  %% Изменение
+  staged    -- "Изменения"  --> modified;
+```
